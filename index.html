@@ -3,42 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comment obtenir un rendez-vous en préfecture rapidement ?</title>
+  <title>Perfecture Widget — Démonstration complète</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Spline Sans', system-ui, sans-serif; background: #F6F1E7; color: #1B1140; line-height: 1.7; }
-    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
-    h1 { font-family: 'Bricolage Grotesque', serif; font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; }
-    .meta { color: rgba(27,17,64,0.5); font-size: 0.85rem; margin-bottom: 32px; }
-    p { margin-bottom: 18px; font-size: 1.05rem; }
-    .widget-box { margin: 32px 0; padding: 0; }
+    body { font-family: 'Spline Sans', system-ui, sans-serif; background: #EDE8DF; color: #1B1140; line-height: 1.7; }
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+    h1 { font-family: 'Bricolage Grotesque', serif; font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+    .sub { color: rgba(27,17,64,0.5); margin-bottom: 40px; }
+    section { margin-bottom: 48px; }
+    h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 2px solid rgba(27,17,64,0.08); }
+    h3 { font-size: 0.95rem; font-weight: 700; color: rgba(27,17,64,0.5); margin-bottom: 16px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+    .widget-cell { background: #F6F1E7; border-radius: 14px; padding: 20px; border: 1px solid rgba(27,17,64,0.06); flex: 0 0 auto; }
+    .widget-cell .label { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(27,17,64,0.4); margin-bottom: 12px; }
     .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(27,17,64,0.1); font-size: 0.8rem; color: rgba(27,17,64,0.4); }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Comment obtenir un rendez-vous en préfecture rapidement ?</h1>
-    <p class="meta">Publié le 31 juillet 2026 — 4 min de lecture</p>
+    <h1>Widgets Perfecture — Démonstration</h1>
+    <p class="sub">Tous les formats disponibles : statistiques &amp; calendrier, toutes tailles.</p>
 
-    <p>Obtenir un rendez-vous en préfecture est devenu l'une des démarches les plus frustrantes en France. Entre les créneaux qui disparaissent en quelques secondes et les sites qui rament, beaucoup passent des semaines à rafraîchir leur écran.</p>
+    <!-- STATS — Préfecture entière -->
+    <section>
+      <h2>Statistiques — Préfecture de l'Ain</h2>
+      <h3>Toutes les démarches de la préfecture</h3>
+      <div class="grid">
+        <div class="widget-cell"><div class="label">XS · Très petit</div><script async src="https://perfecture.fr/widget.js" data-widget-id="a1a57868-2ebe-4b35-9c5e-477693777644" data-layout="xs" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">SM · Petit</div><script async src="https://perfecture.fr/widget.js" data-widget-id="38735df4-cb06-408c-a7d3-e7353e1d1936" data-layout="sm" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">MD · Moyen</div><script async src="https://perfecture.fr/widget.js" data-widget-id="9e1900cf-408b-4eed-bd29-fb3693e7d8f4" data-layout="md" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">LG · Grand</div><script async src="https://perfecture.fr/widget.js" data-widget-id="753a6fcc-bf1b-471a-820a-62c2f708a4f5" data-layout="lg" data-accent="blue"></script></div>
+      </div>
+    </section>
 
-    <p>La première chose à savoir : <strong>les créneaux sont libérés à des moments imprévisibles</strong>. Certaines préfectures publient le lundi matin, d'autres le vendredi soir, et les annulations peuvent arriver à n'importe quelle heure — y compris la nuit.</p>
+    <!-- STATS — Démarche spécifique -->
+    <section>
+      <h2>Statistiques — Préfecture de l'Ain</h2>
+      <h3>Première demande de titre de séjour</h3>
+      <div class="grid">
+        <div class="widget-cell"><div class="label">XS · Très petit</div><script async src="https://perfecture.fr/widget.js" data-widget-id="c7a9d500-04db-4fd9-a76c-32c553bab31b" data-layout="xs" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">SM · Petit</div><script async src="https://perfecture.fr/widget.js" data-widget-id="e6a9e8f2-73c7-48db-b282-b22feb1221bc" data-layout="sm" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">MD · Moyen</div><script async src="https://perfecture.fr/widget.js" data-widget-id="eab767fb-b34f-4771-b7a7-52375f3b494d" data-layout="md" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">LG · Grand</div><script async src="https://perfecture.fr/widget.js" data-widget-id="43dc13e7-4771-47e4-ab4b-f67671bfd431" data-layout="lg" data-accent="blue"></script></div>
+      </div>
+    </section>
 
-    <div class="widget-box">
-      <script async src="https://perfecture.fr/widget.js?v=2" data-widget-id="015fd835-94d2-47f4-9733-64f9f993cecc" data-layout="lg" data-accent="blue"></script>
-    </div>
+    <!-- CALENDAR — Préfecture entière -->
+    <section>
+      <h2>Calendrier — Préfecture de l'Ain</h2>
+      <h3>Toutes les démarches de la préfecture</h3>
+      <div class="grid">
+        <div class="widget-cell"><div class="label">SM · Petit</div><script async src="https://perfecture.fr/widget.js" data-widget-id="5e270aa6-3d88-40e6-9f2e-0d67575b95d9" data-layout="sm" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">MD · Moyen</div><script async src="https://perfecture.fr/widget.js" data-widget-id="43b32dba-18d9-4015-8bab-c5d987040d86" data-layout="md" data-accent="blue"></script></div>
+        <div class="widget-cell"><div class="label">LG · Grand</div><script async src="https://perfecture.fr/widget.js" data-widget-id="7612a431-ce64-43e7-9797-03ccdd0cf3b4" data-layout="lg" data-accent="blue"></script></div>
+      </div>
+    </section>
 
-    <p>Le widget ci-dessus affiche en direct les créneaux disponibles. <strong>Si vous voyez « aucun créneau », ne paniquez pas</strong> — c'est normal. Les places partent vite, mais de nouvelles apparaissent régulièrement.</p>
-
-    <h2>3 astuces pour maximiser vos chances</h2>
-    <p><strong>1. Vérifiez tôt le matin.</strong> Beaucoup de créneaux sont libérés entre 6h et 9h, avant que la majorité des gens ne commencent leur journée.</p>
-    <p><strong>2. Ciblez les sous-préfectures.</strong> Les grandes préfectures (Paris, Lyon, Marseille) sont saturées. Les sous-préfectures de banlieue ont souvent plus de disponibilités.</p>
-    <p><strong>3. Activez une alerte.</strong> Plutôt que de rafraîchir manuellement, utilisez un service comme Perfecture.fr qui surveille pour vous et vous envoie un SMS dès qu'un créneau apparaît.</p>
-
-    <p>Bonne chance — et n'oubliez pas vos justificatifs !</p>
+    <!-- CALENDAR — Démarche spécifique -->
+    <section>
+      <h2>Calendrier — Préfecture de l'Ain</h2>
+      <h3>Première demande de titre de séjour</h3>
+      <div class="grid">
+        <div class="widget-cell"><div class="label">SM · Petit</div><script async src="https://perfecture.fr/widget.js" data-widget-id="0a705802-fa4c-468b-8c4b-392ca6c4969e" data-layout="sm"></script></div>
+        <div class="widget-cell"><div class="label">MD · Moyen · Vert</div><script async src="https://perfecture.fr/widget.js" data-widget-id="bb1e4819-a8e5-49e6-9167-e55b74444ed9" data-layout="md" data-accent="green"></script></div>
+        <div class="widget-cell"><div class="label">LG · Grand · Vert</div><script async src="https://perfecture.fr/widget.js" data-widget-id="65cca070-f2df-473a-972e-6d4d01a95055" data-layout="lg" data-accent="green"></script></div>
+      </div>
+    </section>
 
     <div class="footer">
-      Article partenaire — Widget fourni par Perfecture.fr, service indépendant de l'administration.
+      Widgets fournis par <strong>Perfecture.fr</strong> — service indépendant de l'administration. Les rendez-vous en préfecture sont gratuits.
     </div>
   </div>
 </body>
